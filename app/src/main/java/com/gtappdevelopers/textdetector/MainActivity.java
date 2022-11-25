@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void searchData(String searchQuery) {
-        String apiKey = "Enter your API key";
+        String apiKey = "dfb447bf7b7adc69e2e2ba2cbb26ed179a0778a91670652af3466702a7fdf581";
         String url = "https://serpapi.com/search.json?q=" + searchQuery.trim() + "&location=Delhi,India&hl=en&gl=us&google_domain=google.com&api_key=" + apiKey;
 
         // creating a new variable for our request queue
